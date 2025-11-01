@@ -9,7 +9,7 @@ function Landing() {
 
   return (
     <Routes>
-      {/* Default landing page with buttons */}
+      {}
       <Route
         path="/"
         element={

@@ -5,7 +5,7 @@ function Login_Prof() {
   const navigate = useNavigate();
 
   const toProf = () => {
-    navigate('/Prof-Upload'); // go to upload page
+    navigate('/Prof-Upload'); 
   };
 
   return (
