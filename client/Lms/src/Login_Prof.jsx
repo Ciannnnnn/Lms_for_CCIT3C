@@ -15,9 +15,9 @@ function Login_Prof() {
         <h2>Easy Access</h2>
 
         <div id='holder'>
-          <input type="text" name='username' placeholder='Professor ID' />
+          <input type="text" inputMode='numeric' name='username' placeholder='Professor ID' />
           <br />
-          <input type="password" name='password' placeholder='Password' />
+          <input type="password" inputMode='numeric' name='password' placeholder='Password' />
           <br />
           <button id='Login' onClick={toProf}>Login</button>
         </div>

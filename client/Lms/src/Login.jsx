@@ -14,9 +14,9 @@ function Login() {
         <h2>Easy Access</h2>
 
 <div id='holder'>
-        <input type="text" name='username' placeholder='Student Number'/>
+        <input type="text" inputMode='numeric' name='username' placeholder='Student Number'/>
         <br />
-        <input type="text" name='password' placeholder='Password'/>
+        <input type="password" inputMode='numeric' name='password' placeholder='Password'/>
         <br />
         <button id='Login'>Login</button>
 </div>
