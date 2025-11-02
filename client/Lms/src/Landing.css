@@ -37,12 +37,12 @@
 #Landingholder{
     width: 400px;
     height: 200px;
-    margin: 20%;
+    margin: 10%;
 }
 
 #prof{
 
-    margin-top: 25%;
+    margin-top: 10%;
 }
 
 @keyframes popup {
@@ -60,4 +60,23 @@
 *{
 
     animation: popup 1s ease-in 1 ;
+}
+
+#picHolder{
+    width: 100%;
+    height: 130px;
+}
+
+#prmsuLogo{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    float: left;
+}
+
+#ccitLogo{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    float: right;
 }
