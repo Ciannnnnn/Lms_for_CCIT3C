@@ -16,7 +16,7 @@ function Login() {
 <div id='holder'>
         <input type="text" inputMode='numeric' name='username' placeholder='Student Number'/>
         <br />
-        <input type="password" inputMode='numeric' name='password' placeholder='Password'/>
+        <input type="password" inputMode='numeric' name='password' placeholder='Password' max={6}/>
         <br />
         <button id='Login'>Login</button>
 </div>

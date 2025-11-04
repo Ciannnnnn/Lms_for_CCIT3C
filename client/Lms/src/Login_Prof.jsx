@@ -17,9 +17,9 @@ function Login_Prof() {
         <div id='holder'>
           <input type="text" inputMode='numeric' name='username' placeholder='Professor ID' />
           <br />
-          <input type="password" inputMode='numeric' name='password' placeholder='Password' />
+          <input type="password" inputMode='numeric' name='password' placeholder='Password' max={6} />
           <br />
-          <button id='Login' onClick={toProf}>Login</button>
+          <button id='LoginP' onClick={toProf}>Login</button>
         </div>
       </div>
     </>

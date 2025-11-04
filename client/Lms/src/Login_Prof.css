@@ -39,7 +39,7 @@ label{
     margin-top: 100px;
 }
 
-#Login{
+#LoginP{
     width: 150px;
     height: 40px;
     border-radius: 5px;
@@ -50,11 +50,13 @@ label{
     margin-top: 40px;
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
+    box-shadow: none;
 }
 
-#Login:hover{
+#LoginP:hover{
     background-color: rgb(121, 255, 112);
     transition: all 0.3s ease-in-out;
+    box-shadow: 6px 6px 2px rgb(0, 0, 0);
 }
 
 @keyframes popup {

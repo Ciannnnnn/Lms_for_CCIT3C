@@ -5,6 +5,7 @@ import Login from "./Login";
 import './Landing.css';
 import prmsuLogo from './assets/PRMSU.png';
 import ccitLogo from './assets/ccit.png';
+import Admin from "./Admin"; 
 
 function Landing() {
   const navigate = useNavigate();
@@ -24,14 +25,17 @@ function Landing() {
 
             </div>
             <br />
+            {/* lagyan ng navigation si admin */}
+            <button id="admin" onClick={()=> navigate("/Admin")}>Admin</button><br />
             <button id="prof" onClick={() => navigate("/Login_Prof")}>Professor</button><br />
             <button id="student" onClick={() => navigate("Login")}>Student</button>
           </div>
 
         }
       />
+      <Route path="/Admin" element={<Admin />} />
       <Route path="/Login_Prof" element={<Login_Prof />} />
-        <Route path="/Login" element={<Login />} />
+      <Route path="/Login" element={<Login />} />
       <Route path="/Prof-Upload" element={<Prof_Upload />} />
     </Routes>
   );
